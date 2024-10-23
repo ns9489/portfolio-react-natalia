@@ -25,9 +25,80 @@ body {
     flex: 1; 
     padding-right: 10rem; 
 }
+
+:root {
+    --main-color: #6ec4b1; 
+    --bg-color: #18ad51; 
+}
 span{
     color: var(--main-color);
     
+}
+.text-animation span {
+    position: relative;
+}
+.text-animation span ::before {
+    content: "web Developer";
+    color: var(--main-color);
+    animation: words 20s infinite;
+} 
+
+.text-animation span ::after{
+    content: "";
+    background-color: var(--bg-color);
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    border-left: 3px solid var(--bg-color);
+    right: -8px;
+    animation: cursor 0.6s infinite,Ityping 20s steps(14) infinite ;
+}
+
+@keyframes cursor{
+    to{
+        border-left: 2px solid var(--main-color);
+    }
+}
+
+@keyframes words {
+    0%, 20% {
+        content: "Frontend Designer";
+    }
+    21%, 40% {
+        content: "Web Designer"; 
+    }
+    41%, 60% {
+        content: "UI / UX Designer";
+    }
+    61%, 80% {
+        content: "Web Developer";
+    }
+
+}
+@keyframes typing{
+    10%,
+    15%,
+    30%,
+    35%,
+    50%,
+    70%,
+    75%,
+    90%,
+    95%{
+        width: 0;
+    }
+    5%,
+    20%,
+    25%,
+    40%,
+    60%,
+    65%,
+    80%,
+    85%{
+        width: calc(100% + 8px) ;
+    }
+
+
 }
 .profile {
     margin-left: 20px; 
@@ -60,10 +131,10 @@ span{
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    margin: 1rem 10px; /* Corrige el margen aquí */
+    margin: 1rem 10px;
     color: #6ec4b1; 
-    border: 2px solid #6ec4b1; /* Cambiado a border en lugar de border-radius con solid */
-    border-radius: 3rem; /* Solo se necesita el radio aquí para redondear las esquinas */
+    border: 2px solid #6ec4b1; 
+    border-radius: 3rem; 
     text-decoration: none;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -74,6 +145,3 @@ span{
     color: #fff;
 }
 
-:root {
-    --main-color: #6ec4b1; 
-}
