@@ -1,10 +1,12 @@
 import React from 'react';
 import './Navbar.css'
 
-export const Navbar = () => {
+export const Header = () => {
   return (
     <header>
+    
       <nav className="navbar">
+        <h2>Natalia <span>Sierra</span></h2>
         <ul className="navbar-list">
           <li className="navbar-item">
             <a href="/">Home</a>
@@ -23,5 +25,3 @@ export const Navbar = () => {
     </header>
   )
 }
-
-

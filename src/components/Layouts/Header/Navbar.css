@@ -1,6 +1,33 @@
+
 .navbar {
   background-color: #333;
   padding: 10px 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%; 
+  gap: 20rem;
+  position: relative; 
+  top: 0; 
+  left: 0;
+  color: beige;
+}
+
+.navbar {
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  z-index: 1000; 
+}
+
+span{
+  color: var(--main-color);
+  text-shadow: 2px 2px 5px rgba(12, 238, 200, 0.8); 
+ 
+}
+:root {
+  --main-color: #6ec4b1; 
 }
 
 .navbar-list {
@@ -25,7 +52,7 @@
   text-decoration: underline;
 }
 
-/* Estilos responsive */
+
 @media (max-width: 600px) {
   .navbar-list {
     flex-direction: column;
