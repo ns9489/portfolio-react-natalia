@@ -6,10 +6,15 @@ import ContactButton from '../../IU/ContactButton/ContactButton';
 
 export const AboutMe = () => {
   return (
-    <div>
+    <>
+     <div className='About-container'>
       <ProfileSection />
+      </div>
+      <div className='Social-container'>
       <SocialIcon />
       <ContactButton />
     </div>
+    </>
+   
   );
 };

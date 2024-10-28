@@ -1,9 +1,31 @@
-body{
-    background-color:  #333;
+body {
+    background-color: #333;
     color: #ccc;
     padding: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
+.About-container {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px; /* límite de ancho para un mejor control de diseño */
+}
+
+.Social-container {
+    display: flex;
+    flex-direction: column; /* Mantener en columna */
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    position: relative; /* Cambia a fixed si quieres que sea completamente fijo */
+    width: 100%;
+    max-width: 400px;
+    padding: 1rem;
+}
