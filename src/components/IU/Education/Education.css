@@ -1,0 +1,38 @@
+:root {
+    --main-color: rgb(19, 202, 187);
+    --bg-color: rgba(22, 24, 23, 0.8);
+    --segundo-color: #fff;
+}
+
+.education-section {
+    padding: 100px 15px;
+    background-color: #131212;
+    color: #fff;
+}
+
+.heading {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 5rem 0;
+    position: relative;
+}
+
+.timeline-items {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding-top: 50px;
+}
+
+.timeline-items::before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background-color: var(--segundo-color);
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
