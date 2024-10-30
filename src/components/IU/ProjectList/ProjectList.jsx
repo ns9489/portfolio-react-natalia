@@ -2,7 +2,7 @@ import React from 'react';
 import { ProjectCard } from '../ProjectCard/ProjectCard';
 import './ProjectList.css';
 import Project1 from '../../../assets/images/Project1.png'
-import Project2 from '../../../assets/images/project2.png'
+import Project2 from '../../../assets/images/Project2.png'
 import Project3 from '../../../assets/images/Project3.jpg'
 
 const projectsData = [
@@ -15,7 +15,7 @@ const projectsData = [
     title: "API TempControl",
     description: "API de Control de Temperatura diseñada para gestionar y monitorear dispositivos de temperatura en tiempo real.",
     image: Project2
-  },
+    },
 
 
   {
