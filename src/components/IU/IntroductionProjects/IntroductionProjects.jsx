@@ -1,5 +1,5 @@
 import React from 'react';
-import './IntroductionProjects.css'; // Asegúrate de que la ruta sea correcta
+import './IntroductionProjects.css'; 
 
 export const IntroductionProjects = () => {
   return (

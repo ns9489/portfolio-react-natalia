@@ -4,8 +4,8 @@ import './ContactButton.css'
 export const ContactButton = () => {
     return (
         <div className="btn-group">
-        <a href="#" className="btn">Hire</a>
-        <a href="#" className="btn">Contact</a>
+        <a href="#Project" className="btn">Project</a>
+        <a href="#Contact" className="btn">Contact</a>
       </div>
     )
 }

@@ -9,16 +9,16 @@ export const Header = () => {
         <h2>Natalia <span>Sierra</span></h2>
         <ul className="navbar-list">
           <li className="navbar-item">
-            <a href="/">Home</a>
+            <a href="#AboutMe">Home</a>
           </li>
           <li className="navbar-item">
-            <a href="/about-me">About Me</a>
+            <a href="#Education">Education</a>
           </li>
           <li className="navbar-item">
-            <a href="/contact-me">Contact Me</a>
+            <a href="#Project">Project</a>
           </li>
           <li className="navbar-item">
-            <a href="/other-routes">Other Routes</a>
+            <a href="#Contact">Contact</a>
           </li>
         </ul>
       </nav>

@@ -21,6 +21,7 @@
   z-index: 1000; 
   font-family: "Playfair Display", serif;
   font-size: 1.2rem;
+
 }
 
 
@@ -40,10 +41,12 @@ span{
   padding: 0;
   margin: 0;
   justify-content: space-around;
+  
 }
 
 .navbar-item {
   margin: 0 15px;
+
 }
 
 .navbar-item a {
@@ -56,6 +59,10 @@ span{
   text-decoration: underline;
 }
 
+.navbar-item a:active,
+.navbar-item a:focus {
+  color: #6ec4b1; 
+}
 
 @media (max-width: 600px) {
   .navbar-list {
