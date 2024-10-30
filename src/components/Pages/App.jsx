@@ -1,5 +1,6 @@
 import React from "react";
 import 'animate.css';
+import './App.css';
 import { Header } from "../Layouts/Header/Header";
 import { AboutMe } from "../Layouts/AboutMe/AboutMe";
 import { EducationSection } from "../Layouts/EducationSection/EducationSection"
