@@ -3,7 +3,10 @@ import { Education } from '../../IU/Education/Education';
 
 export const EducationSection = () => {
   return (
-    <Education/>
+    <div className='Section-education'>
+        <Education/>
+    </div>
+  
   )
 }
 
