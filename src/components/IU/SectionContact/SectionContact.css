@@ -6,7 +6,7 @@
   padding: 20px; 
   border-radius: 8px; 
   background-color: #333; 
-  font-family: "Playfair Display", serif; 
+  
 }
 
 .container-contactMe h1 {
@@ -69,8 +69,7 @@ h1 samp {
   padding: 10px; 
   font-size: 18px; 
   color: #333; 
-  width: 10rem;
-  font-family: "Playfair Display", serif; 
+  width: 10rem; 
   transition: background-color 0.3s, color 0.3s;
 }
 
@@ -93,7 +92,6 @@ h1 samp {
   font-size: 18px; 
   color: #333;
   width: auto; 
-  font-family: "Playfair Display", serif; 
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
 }

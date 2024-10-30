@@ -15,11 +15,10 @@
 .text-section h1{
   gap: 5rem;
   width: 40rem; 
-  font-family: "Playfair Display", serif;
+  
 }
 
 .text-section h3 {
-  font-family: "Playfair Display", serif;
   font-size: 1.4rem;
 }
 

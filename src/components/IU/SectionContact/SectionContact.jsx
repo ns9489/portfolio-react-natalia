@@ -36,10 +36,10 @@ export const SectionContact = () => {
           <label htmlFor="msg">Mensaje:</label>
           <textarea id="msg" name="msg" rows="4" placeholder="Tu mensaje" required></textarea>
         </div>
-      </form>
-      <div className="form-button">
+        <div className="form-button">
           <input type="submit" value="Enviar" />
         </div>
+      </form>
     </div>
   );
 }
