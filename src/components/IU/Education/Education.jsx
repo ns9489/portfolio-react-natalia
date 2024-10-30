@@ -5,7 +5,7 @@ import { TimelineItem } from '../TimelineItem/TimelineItem';
 
 const educationData = [
     {
-        title: "Escuela Secundaria",
+        title: "Colegio",
         description: "Terminé mis estudios en el Colegio Simon Bolivar de Samaniego, Nariño, donde adquirí una sólida base en diversas materias y desarrollé habilidades interpersonales a través de actividades extracurriculares."
     },
     {

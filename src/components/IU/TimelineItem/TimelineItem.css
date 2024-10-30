@@ -5,6 +5,7 @@
     border: 1px var(--main-color);
 
 }
+
 .timeline-item:nth-child(odd) {
     padding-right: calc(50% + 30px);
     text-align: right;
@@ -14,7 +15,6 @@
     padding-left: calc(50% + 30px);
     text-align: left;
 }
-
 
 .timeline-dot {
     height: 21px;
@@ -29,7 +29,7 @@
 
 .timeline-date {
     font-weight: bold;
-    padding: 0.5rem; 
+    padding: 0.5rem;
     border-radius: 10px;
     display: inline-block;
     margin-bottom: 0.5rem;
@@ -40,13 +40,16 @@
     border: 1px solid var(--main-color);
     border-radius: 4rem;
     background-color: var(--bg-color);
-    box-shadow: 0px 4px 10px rgba(19, 202, 187, 0.5); 
+    box-shadow: 0px 4px 10px rgba(19, 202, 187, 0.5);
     font-family: "Red Hat Display", sans-serif;
 }
-.timeline-content h3{
+
+.timeline-content h3 {
     padding: 0.5rem;
     font-size: 1.4rem;
 }
-.timeline-content h3, .timeline-content p {
+
+.timeline-content h3,
+.timeline-content p {
     margin: 0;
 }

@@ -1,11 +1,11 @@
 import React from 'react';
 import './SectionContact.css';
 import emailjs from 'emailjs-com';
-import Swal from 'sweetalert2'; 
+import Swal from 'sweetalert2';
 
 export const SectionContact = () => {
   const sendEmail = (event) => {
-    event.preventDefault(); 
+    event.preventDefault();
 
     emailjs.sendForm('service_q4pof2z', 'template_h2vvyb8', event.target, 'e8FDx6_lKu3ZZ3p7A')
       .then(result => {

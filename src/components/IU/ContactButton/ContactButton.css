@@ -5,15 +5,14 @@
 .btn {
     display: inline-block;
     padding: 4px 20px;
-    margin: 0.1rem 10px; 
-    color: #6ec4b1; 
+    margin: 0.1rem 10px;
+    color: #6ec4b1;
     border: 2px solid #6ec4b1;
-    border-radius: 3rem; 
+    border-radius: 3rem;
     text-decoration: none;
     cursor: pointer;
     transition: background-color 0.3s;
 }
-
 
 .btn:hover {
     background-color: #6ec4b1;

@@ -15,9 +15,7 @@ const projectsData = [
     title: "API TempControl",
     description: "API de Control de Temperatura diseñada para gestionar y monitorear dispositivos de temperatura en tiempo real.",
     image: Project2
-    },
-
-
+  },
   {
     title: "Ecommers",
     description: "Ecommers es una plataforma de comercio donde le permite a los usuarios explorar y comprar productos de manera intuitiva.",
