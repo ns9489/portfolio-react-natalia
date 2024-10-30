@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 :root {
     --main-color: rgb(19, 202, 187);
     --bg-color: rgba(22, 24, 23, 0.8);
@@ -8,13 +10,16 @@
     padding: 100px 15px;
     background-color: #131212;
     color: #fff;
+    
 }
 
 .heading {
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-align: center;
     margin: 5rem 0;
     position: relative;
+    font-family: "Playfair Display", serif;
+    
 }
 
 .timeline-items {
