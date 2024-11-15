@@ -1,6 +1,5 @@
 import React from 'react';
 import { ProjectCard } from '../ProjectCard/ProjectCard';
-import './ProjectList.css';
 import Project1 from '../../../assets/images/Project1.png'
 import Project2 from '../../../assets/images/Project2.png'
 import Project3 from '../../../assets/images/Project3.jpg'
@@ -25,7 +24,7 @@ const projectsData = [
 export const ProjectList = () => {
 
   return (
-    <div className="project-list">
+    <div className="flex flex-wrap gap-5 justify-center p-5">
       {projectsData.map((project, index) => (
         <ProjectCard
           key={index}

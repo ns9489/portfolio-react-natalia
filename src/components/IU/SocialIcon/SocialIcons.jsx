@@ -16,5 +16,5 @@ export const SocialIcon = () => {
     </div>
   )
 }
-export default SocialIcon;
+
 
